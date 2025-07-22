@@ -1,0 +1,39 @@
+.container {
+    background-color: rgb(24, 24, 24);
+
+}
+
+.content {
+    margin: 0px 5px 0px 220px;
+    padding: 10px;
+}
+
+.max-content {
+    margin: 0px 5px 0px 80px;
+    padding: 20px;
+
+    .display {
+        background-color: rgb(24, 24, 24);
+        color: white;
+        padding: 5px;
+
+
+        img {
+            width: 450px;
+            height: 270px;
+            border-radius: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            column-gap: 40px;
+
+            .card {
+                padding: 5px;
+                margin: 5px 5px 15px 0;
+            }
+        }
+    }
+
+}

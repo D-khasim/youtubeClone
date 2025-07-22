@@ -1,0 +1,12 @@
+.vedio-player{
+    box-sizing: border-box;
+    background-color: rgb(24, 24, 24);
+    padding: 2% 5%;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    gap: 20px;
+    flex-direction: row ;
+    
+
+}
